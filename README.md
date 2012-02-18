@@ -52,7 +52,15 @@ Pending. Please have a look at the source.
 
 In your Gemfile add:
 
-    gem 'crispy-mobile'
+``` ruby
+  gem 'crispy-mobile'
+```
+
+In your ApplicationController add:
+
+``` ruby
+  include Crispy::DeviceHelpers
+```
 
 ## License
 
