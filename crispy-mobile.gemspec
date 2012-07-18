@@ -18,5 +18,5 @@ Gem::Specification.new do |s|
   # Gem Dependencies
   s.rubygems_version = %q{1.3.6}
   s.add_dependency 'wurfl-lite', '~> 1.1.2'
+  s.add_dependency 'hashie'
 end
-
